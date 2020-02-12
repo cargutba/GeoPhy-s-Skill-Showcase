@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "target": "es2017",
+    "module": "commonjs",
+    "strict": true,
+    "noImplicitAny": false,
+    "types": ["@wdio/sync", "mocha", "node"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true
+  },
+  "include": ["./src"]
+}
